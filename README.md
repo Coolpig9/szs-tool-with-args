@@ -5,36 +5,21 @@ Compress and decompress SZS files with the Yaz0 compression
 **FOR USE WITH NINTENDO 3DS GAMES ONLY**. The `.szs` files from a Wii game **will not work**.
 
 ## Future plans
-- Add support for the following compressions (and an example of a game that uses that compression):
-  - NARC (3DS)
-    - Super Mario 3D Land
-  - RARC (GameCube, Wii)
-    - Super Mario Galaxy
-  - SARC (Wii)
-    - New Super Mario Bros. Wii
-  - U8 (Wii U)
-    - Mario Kart 8
-- Detect what compression a file uses and if it's valid
-- Add support for `.arc`, `.carc`, `.narc` and `.sarc`
-- Rename the project to "Nintendo Archive Tool"
-- Clean up UI & code
+-Port it to linux
+-readding decompressing (i deleated decompressing becuse i recode this to work in my program)
 
 ## Compressing
-- To compress, put all the files you wish to compress into a `.zip` file. This makes SZS Tool's job easier.
-- Select the `.zip` file
+to compress simply type
+"wine SZS-tool input-folder output-folder"
+if your runing windows dont put wine in front
 
 ## Decompressing
-- To decompress, select a supported file
-- Next, choose a folder to export to
+-you cant at the moment cus i deleated it
 
 ## Downloads
-Go to the [Release pages](https://github.com/theawesomecoder61/SZS-Tool/releases).
+Go to the [Release pages](https://github.com/Cool-pig-9/szs-tool-with-args/).
 
 ## Building
 1. Ensure you have .NET Framework 4.5
-2. Open the `.sln` in Visual Studio 2010 or later (I use Visual Studio 2012)
-3. Go to `Build > Build Solution`
-
-## FAQ
-### What about Wiimms SZS Tool?
-The problem is that [Wiimms SZS Tool](https://szs.wiimm.de/wszst/) (of which I did not make nor is it mine) is for Linux and Mac. It supports Windows, only with Cygwin. SZS Tool (this one) doesn't need Cygwin. Plus, Wiimms SZS Tool only works with `.szs` from Wii games, not GameCube, 3DS and Wii U games as this SZS Tool supports.
+2.type "xbuild SZS-Tool.csproj" in to your terminal make shure you have mono xtool
+3.run with wine (if not on windows like me) 
