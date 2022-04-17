@@ -13,29 +13,49 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SZS_Tool {
 
     public partial class Form1 : Form {
 
         public Form1() {
             InitializeComponent();
-        }
+            List<string> Args = new List<string>();
+            foreach (string arg in Environment.GetCommandLineArgs())  
+            {  
+                Args.Add(arg);  
+            }
+            foreach (string a in Args)
+            {
+                 
+                if (a == Args.Last())
+                {
+                    Environment.Exit(0);
+                }
 
-        private void compressBtn_Click(object sender, EventArgs e) {
-            if(openZIPDialog.ShowDialog() == DialogResult.OK) {
+                var arg1 = a;
+                var mid = Args.IndexOf(a) + 1;
+                var arg2 = Args[mid];
+                if (Args.IndexOf(a) % 2 == 0)
+                    {
+                        Console.WriteLine("even contiueing");
+                        Console.WriteLine(Args.IndexOf(a));
+                        continue;
+                    }
+                Console.WriteLine(Args.IndexOf(a));
+                Console.WriteLine(a);
+                var zip = Args[1];
                 YAZ0 y = new YAZ0();
                 NARC SzsArch = new NARC();
                 SFSDirectory dir = new SFSDirectory("", true);
-                using(ZipFile z = ZipFile.Read(openZIPDialog.FileName)) {
+                using(ZipFile z = ZipFile.Read(zip)) {
                     for(int i = 0; i < z.Entries.Count; i++) {
                         ZipEntry ze = z.Entries.ToArray()[i];
                         SFSFile file = new SFSFile(i, ze.FileName, dir);
-
                         MemoryStream data = new MemoryStream();
                         ze.Extract(data);
                         file.Data = data.ToArray();
                         data.Dispose();
-
                         dir.Files.Add(file);
                     }
                     foreach(ZipEntry ze in z) {
@@ -43,36 +63,17 @@ namespace SZS_Tool {
                     }
                 }
                 SzsArch.FromFileSystem(dir);
-                if(saveSZSDialog.ShowDialog() == DialogResult.OK) {
-                    File.WriteAllBytes(saveSZSDialog.FileName, y.Compress(SzsArch.Write()));
-                    MessageBox.Show("Done!");
-                }
+                File.WriteAllBytes(Args[2], y.Compress(SzsArch.Write()));
+                Console.WriteLine("Done");
+                //Environment.Exit(0);
             }
-        }
-
-        private void decompressBtn_Click(object sender, EventArgs e) {
-            if(openSZSDialog.ShowDialog() == DialogResult.OK) {
-                string of = openSZSDialog.FileName;
-                if(IsYaz0(of)) {
-                    if(folderBrowserDialog1.ShowDialog() == DialogResult.OK) {
-                        string ep = folderBrowserDialog1.SelectedPath;
-                        YAZ0 y = new YAZ0();
-                        NARC f = new NARC(y.Decompress(File.ReadAllBytes(of)));
-                        foreach(SFSFile file in f.ToFileSystem().Files) {
-                            Console.WriteLine(file.FileName);
-                            File.WriteAllBytes(ep + "\\" + file.FileName, file.Data);
-                        }
-                        MessageBox.Show("Done!");
-                    }
-                } else {
-                    MessageBox.Show("The SZS file is not compressed with Yaz0.");
-                }
-            }
-        }
-
+        }    
         private bool IsYaz0(string f) {
             byte[] b = File.ReadAllBytes(f);
             return (b[0] == 89 && b[1] == 97 && b[2] == 122 && b[3] == 48);
         }
+       
+        
     }
+
 }
