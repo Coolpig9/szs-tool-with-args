@@ -14,7 +14,7 @@ to compress simply type
 if your runing windows dont put wine in front
 
 ## Decompressing
--you cant at the moment cus i deleated it
+-you cant at the moment cus i deleated it (will bring it back tho)
 
 ## Downloads
 Go to the [Release pages](https://github.com/Cool-pig-9/szs-tool-with-args/).
