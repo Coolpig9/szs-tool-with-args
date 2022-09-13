@@ -7,6 +7,7 @@ Compress and decompress SZS files with the Yaz0 compression
 ## Future plans
 -Port it to linux
 -re adding decompressing (i deleated decompressing because i recode this to work in my program)
+-to cut out the rest of the gui code(right now i have just disabled it)
 
 ## Compressing
 to compress simply type
