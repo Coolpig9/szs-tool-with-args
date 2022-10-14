@@ -31,7 +31,7 @@ namespace SZS_Tool {
             
             foreach (string a in Args)
             {
-                if (a == "compress"){
+                if (a == "compress" || a == "-c"){
                     t = "c";
                     Console.WriteLine(t);
                     continue;
