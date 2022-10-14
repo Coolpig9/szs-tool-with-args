@@ -1,0 +1,42 @@
+/home/the-pig/projects/szs_tool_for_linux/clean/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/the-pig/projects/szs_tool_for_linux/clean/obj/Debug/SZS_Tool.Form1.resources
+/home/the-pig/projects/szs_tool_for_linux/clean/obj/Debug/SZS_Tool.Properties.Resources.resources
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/SZS Tool.exe.config
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/clean/obj/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/clean/obj/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/3DS.dll
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/CommonCompressors.dll
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/CommonFiles.dll
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/DotNetZip.dll
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/LibEveryFileExplorer.dll
+/home/the-pig/projects/szs_tool_for_linux/clean/bin/Debug/NDS.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/obj/Debug/SZS_Tool.Form1.resources
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/obj/Debug/SZS_Tool.Properties.Resources.resources
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/SZS Tool.exe.config
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/obj/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/obj/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/3DS.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/CommonCompressors.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/CommonFiles.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/DotNetZip.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/LibEveryFileExplorer.dll
+/home/the-pig/projects/szs_tool_for_linux/SZS-Tool/bin/Debug/NDS.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/obj/Debug/SZS_Tool.Form1.resources
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/obj/Debug/SZS_Tool.Properties.Resources.resources
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/SZS Tool.exe.config
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/obj/Debug/SZS Tool.exe
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/obj/Debug/SZS Tool.pdb
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/3DS.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/CommonCompressors.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/CommonFiles.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/DotNetZip.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/LibEveryFileExplorer.dll
+/home/the-pig/projects/szs_tool_for_linux/moded/SZS-Tool/bin/Debug/NDS.dll
