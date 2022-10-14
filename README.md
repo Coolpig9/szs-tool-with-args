@@ -1,31 +1,9 @@
-# SZS-Tool
-Compress and decompress SZS files with the Yaz0 compression
-
-## Compatibility
-**FOR USE WITH NINTENDO 3DS GAMES ONLY**. The `.szs` files from a Wii game **will not work**.
-
-## Future plans
-- Add support for the following compressions (and an example of a game that uses that compression):
-  - NARC (3DS)
-    - Super Mario 3D Land
-  - RARC (GameCube, Wii)
-    - Super Mario Galaxy
-  - SARC (Wii)
-    - New Super Mario Bros. Wii
-  - U8 (Wii U)
-    - Mario Kart 8
-- Detect what compression a file uses and if it's valid
-- Add support for `.arc`, `.carc`, `.narc` and `.sarc`
-- Rename the project to "Nintendo Archive Tool"
-- Clean up UI & code
-
 ## Compressing
-- To compress, put all the files you wish to compress into a `.zip` file. This makes SZS Tool's job easier.
-- Select the `.zip` file
+SZS-tool.exe -c file.zip file.szs
+
 
 ## Decompressing
-- To decompress, select a supported file
-- Next, choose a folder to export to
+SZS-tool.exe -d file.szs outfolder
 
 ## Downloads
 Go to the [Release pages](https://github.com/theawesomecoder61/SZS-Tool/releases).
